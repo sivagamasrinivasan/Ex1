@@ -25,11 +25,7 @@ public class CardTrickICE1 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter number from 1 to 13");
-        int x = input.nextInt();
-
-        System.out.println("Enter your Suit name from diamonds,clubs,spades,hearts");
-        String s = input.next();
+   
 
         System.out.println("\n****************************************");
         System.out.println("Your number is :" + x + " and suit is :" + s);
@@ -49,10 +45,12 @@ public class CardTrickICE1 {
         for (int i = 0; i < magicHand.length; i++) {
             System.out.println("Number is: " + magicHand[i].getValue() + " and suit is " + magicHand[i].getSuits());
         }
-
+Card luckeyCard = new Card();
+        luckeyCard.setValue(5);
+        luckeyCard.setSuits("diamonds");
         int count = 0;
         for (int i = 0; i < magicHand.length; i++) {
-            if (x == magicHand[i].getValue() && s.equals(magicHand[i].getSuits())) {
+            if (uckeyCard.setValue(5) == magicHand[i].getValue() && luckeyCard.setSuits("diamonds").equals(magicHand[i].getSuits())) {
                 count = 1;
                 System.out.println("Your number " + x + " and suit " + s + " are matched");
             }
