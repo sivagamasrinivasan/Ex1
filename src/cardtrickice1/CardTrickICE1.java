@@ -45,16 +45,16 @@ public class CardTrickICE1 {
        for (int i = 0; i < magicHand.length; i++) {
             System.out.println("Number is: " + magicHand[i].getValue() + " and suit is " + magicHand[i].getSuits());
         }
-System.out.println("enter suit and number");
+/*System.out.println("enter suit and number");
           
 Scanner in = new Scanner(System.in);
 int c=in.nextInt();
 
-String s=in.next();
+String s=in.next();*/
 
-       //Card luckeyCard = new Card();
-//int c=5;
-//String s="diamonds";
+       Card luckeyCard = new Card();
+int c=5;
+String s="diamonds";
       //luckeyCard.setValue(5);
         //luckeyCard.setSuits("diamonds");
         int count = 0;
